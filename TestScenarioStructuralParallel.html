@@ -528,14 +528,6 @@ function handleError(evt) {
     white-space: nowrap;
 }
 
-.window-theme-value-info .window-body table tbody tr.even td {
-    background-color:white;
-}
-
-.window-theme-value-info .window-body table tbody tr.odd td {
-    background-color: #e8ffe8;
-}
-
 .show_value_button {
     background-color: #c1c1c1;
  }
@@ -2957,7 +2949,7 @@ return _;
 
 </head>
 <body>
-<div id="all-diagram-content" class="embedded-diagram" data-openmdao-version='3.20.1-dev'>
+<div id="all-diagram-content" class="embedded-diagram" data-openmdao-version='3.23.1-dev'>
     <div id="diagram-content">
         <!-- Toolbar -->
         <div id="toolbarLoc">
@@ -3257,7 +3249,7 @@ return _;
 </div>
 
 <script type="text/javascript">
-    var compressedModel = "eJztWFtP2zAU/itVnjapqpp2RYNXYNIk6BCIJ4Qs1zlpvSV2ZDuMrup/37Fzc9PQMrRNKvBSOefic//sehUYBRCc9FaBoKldBEpKE/R7gVlmG98soVpbwg0DQRWXN0blzOSKJpYNj5kCrbkUVkjkSYJEIUXCBVBFtEweQFn16cVJ7/p2+m16eh50iBCZmXKTVcAzxYXBZbhG0a2tLqYbWz1nHxTDMCCdJUC+U4akmCYakJxrIJSbHyA8YkEgKRckpsxIa3Y4CD0OfWw44WDScLjghtPE5w5tFEymmRQgDCkzXOZK5zO91AbSih7MlcwzGxjXJKOY5wQSzze24EmknLt3TflS0Au/fPW2GzW8RKlTdOSPKrenXKVmp9oene3Y6yztiL+dyICLCFxI3al5JNq17NDPj8xNljsrUUUSEVWKLkvLEddMgQHPMpKM4rPcQORR9YIW+h+O+x+dcpolnHHjNxk2hSvAFD23Mg/UhnSHvdHvPe/nfn2Pen53d7ujckHs7BKs2NKjV9m4nZ6df/k6PT9r3HAm6jjK2lQul5/YKqRFikAzr/7yp6t7pZ5l/qeCuDaE66Gbp2G5b8EsJQ2dVzbWODdNGYsiEmza/X1+peAUhwjbb/7e7oXOv+r2v9Lafp3j0v/3aT3kaWXl+O2f1dc7qBhJ0VpvalYPyP38zUNN9xErtdk/t1co9Xpn95Ufsl2df0DuHzjuxLlg/wl6wpdAz5u8vbRDrt4LIvtg0IAJ+tGvkXKWIziU7xvS9K6BSRVRVHI5F+QyTwzPJBfmqgEdVLVJmoNMwajljk0sOgdpNCELiv/ukR+Nx3E8Ckej8dFkEn7+NDyeHI3jaHjEaBjRcORcW1qIMwtbBE0SLJyt6r1DOSGAuQhr+irQivkXtsEGNMxN61xo2K6jS2X7+jDYxMRCs961YT5Lz7f4QlUFT2h6AvF2rLXHcVegu3V9rxt1m3o606NMydR1VoFUdtXpa/t46cjhkyK11RZIduezvU1nnVunRWeMvjXbsyWS2RBbdXrKpJ/Qlu/bnbnLJQ9aW0jrpilSvLhLNGh8VpB8IEYYSPkvakclaCMhzPI5qR4W7+7XBZ9oMAadrPGkAC0+F+SBKqe6LiAILxoaakIEeKFSYC8l9tlwc2A9u+v1bxUE4b4=";
+    var compressedModel = "eJztWd9P2zAQ/leqPG1ShRoQFewVmDQJOgTiCSHLca6tt8SObAfoqv7vOzu/3DSlhQGaoC8oOfvOvu/uvjvSeWAUQPCtNw8ETe1DoKQ0Qb8XmFm29M4SqrUVXDMQVHF5bVTOTK5oYpfhMVOgNZfCbhJ5kqBQSJFwAVQRLZN7UFZ9dP6td3Uz+jk6OQs6thCZmdLIPOCZ4sLgY7jArSumzkdLpraxg9vQDUijBMgvylA0pokGFOcaCOXmNwhPWAhIygUZU2akPXawF3or9LFZCfcOmxUuuOE08VcH1gsm00wKEIaUCJdY6TzSM20greTBRMk8s45xTTKKOCeQeHdjU57Eyl33tglfCnrqh682uxxDF7sL3HuC13lW/DYErdTsVNugs4pAjdUTKLThDLiIwbnUDdAj0c75gY+SzE2Wu1PiSiRiqhSdlSfHXDMFBryTUWQUj3IDsSfVU1rofznuf3XKaZZwxo2fapgaLgwjvLndc0+tS7eYIf3edn/uCi2XmegwZ2AN3vryIuWqd8zTzn30sUxNK/Frpts9lQtiGYFgBsw8eYXuzej07PuP0dlp41ZxiQqXMtYVBOUrph5piWLQzMsn+eDyqFLPMv9Vwbg+CJ8HrkoHpd1isdxp6KQ6Y4HV2KRFkRQEi2Bz9VwqOMHSxHSe7Mqn0Hmr6vkvS8XPm3GJx45N1kJkK8NQA++EVPgSpHZ8+sp8ykqC3HYW+biEip4Uibjj1H8njDdAJdyIyvt3kE8c/HzXUF+5nXQPulKbbbn5Evd+XH7eMPB+LjLataLNbPSJ4Rjngu3G+A8+xrddrj6YxvaLacO1eI9+3U6iHLmz/MArTe8KmFQxRSUXQ0Eu8sTwTHJhLhtORlUL0gRkCkbNnjBiW1iQxodkSvXUrh8dhGw4PgiH+/sHYXwYQRQOB8fR8WHIjoZAh+5qM9sBzNQGQZMEA2djfOeagBDAnIe1fB5oxQLvP5e9pdqfmFbzbJZdhZTK9vPr3jKJFpq11WZxKz3/xBeqKlij6W0Yr/pa33jc5ain29UhWybaW55tyYdhxZgNKY30fqZk6jK2YGj71IlBu891xGbtlvbh3RPCKnatQf8pf7pNdidC+56dCer3MVtIJV1bfFrJs86cnyFrPOkI3wZsOu/X8sFvOK3+4zghVrwYGJsedVqI/PaEZJbyP9QWfNDmc4jyCal+H3LswAUyNI8JUu09jp8RTOk9dz/hBA9UiQLCzBANxqAfNXEW7MwngqCas74ouBYHTg21IAYcrxXY4dT+QLTMTN7VFou/M+HOEw==";
 </script>
 
 <script type="text/javascript">
@@ -7576,7 +7568,7 @@ class InfoPropDefault {
     output(msg) { return msg; }
 
     /** Make sure the node has the property and it's got a value. */
-    canShow(node) { return (node.propExists(this.key) && node[this.key] != '') }
+    canShow(node) { return (node.propExists(this.key) && String(node[this.key]) != '') }
 
     /**
      * Add a table row with the supplied description and value.
@@ -7608,6 +7600,70 @@ class InfoPropDefault {
                 this.output(node[this.key]), this.capitalize)
         }
     }
+
+    /**
+     * Convert an element to a string that is human readable.
+     * @param {Object} element The scalar item to convert.
+     * @returns {String} The string representation of the element.
+     */
+     static elementToString(element) {
+        if (typeof element === 'number') {
+            if (Number.isInteger(element)) { return element.toString(); }
+            return this.floatFormatter(element); /* float */
+        }
+
+        if (element === 'nan') { return element; }
+        return JSON.stringify(element);
+    }
+
+    /**
+     * Convert a value to a string that is human readable.
+     * @param {Object} val The item to convert.
+     * @param {Number} level The level of nesting in the display.
+     * @returns {String} The string version of the converted array.
+     */
+    static valToString(val, level = 0) {
+        if (!Array.isArray(val)) { return this.elementToString(val); }
+
+        let indent = ' '.repeat(level);
+        let valStr = indent + '[';
+
+        for (const element of val) {
+            valStr += this.valToString(element, level + 1) + ' ';
+        }
+
+        return valStr.replace(/^(.+) $/, '$1]\n');
+    }
+
+    /**
+     * Convert a value to a string that can be used in Python code.
+     * @param {Object} val The value to convert.
+     * @returns {String} The string of the converted object.
+     */
+     static valToCopyString(val) {
+        if (!Array.isArray(val)) { return this.elementToString(val); }
+
+        let valStr = 'array([';
+        for (const element of val) {
+            valStr += this.valToCopyString(element) + ', ';
+        }
+
+        if (val.length > 0) {
+            return valStr.replace(/^(.+)(, )$/, '$1])');
+        }
+    }
+}
+/**
+ * Output a human-readable number.
+ * @typedef InfoPropNumber
+ */
+class InfoPropNumber extends InfoPropDefault {
+    constructor(key, desc) {
+        super(key, desc, false);
+    }
+
+    /** Truncate a possible float to something readable. */
+    output(val) { return InfoPropDefault.valToString(val); }
 }
 
 /**
@@ -7697,55 +7753,10 @@ class InfoPropArray extends InfoPropDefault {
         this.values = values;
     }
 
-    /**
-     * Convert an element to a string that is human readable.
-     * @param {Object} element The scalar item to convert.
-     * @returns {String} The string representation of the element.
-     */
-    static elementToString(element) {
-        if (typeof element === 'number') {
-            if (Number.isInteger(element)) { return element.toString(); }
-            return this.floatFormatter(element); /* float */
-        }
-
-        if (element === 'nan') { return element; }
-        return JSON.stringify(element);
-    }
-
-    /**
-     * Convert a value to a string that is human readable.
-     * @param {Object} val The item to convert.
-     * @param {Number} level The level of nesting in the display.
-     * @returns {String} The string version of the converted array.
-     */
-    static valToString(val, level = 0) {
-        if (!Array.isArray(val)) { return this.elementToString(val); }
-
-        let indent = ' '.repeat(level);
-        let valStr = indent + '[';
-
-        for (const element of val) {
-            valStr += this.valToString(element, level + 1) + ' ';
-        }
-
-        return valStr.replace(/^(.+) $/, '$1]\n');
-    }
-
-    /**
-     * Convert a value to a string that can be used in Python code.
-     * @param {Object} val The value to convert.
-     * @returns {String} The string of the converted object.
-     */
-    static valToCopyString(val) {
-        if (!Array.isArray(val)) { return this.elementToString(val); }
-
-        let valStr = 'array([';
-        for (const element of val) {
-            valStr += this.valToCopyString(element) + ', ';
-        }
-
-        if (val.length > 0) {
-            return valStr.replace(/^(.+)(, )$/, '$1])');
+    addRow(tbody, node) {
+        if (this.canShow(node)) {
+            InfoPropDefault.addRowWithVal(tbody, this.desc,
+                this.output(node[this.key], node))
         }
     }
 
@@ -7756,10 +7767,10 @@ class InfoPropArray extends InfoPropDefault {
      * @param {Array} array The array to display and save.
      * @returns {String} A string representation of the array.
      */
-    output(array) {
+    output(array, node) {
         if (array == null) { return 'Value too large to include in diagram'; }
 
-        const valStr = InfoPropArray.valToString(array);
+        const valStr = InfoPropDefault.valToString(array);
         const maxLen = ValueInfo.TRUNCATE_LIMIT;
         const isTruncated = valStr.length > maxLen;
 
@@ -7773,8 +7784,12 @@ class InfoPropArray extends InfoPropDefault {
         // Store the original value and formatted value so they can be passed if the panel is pinned.
         this.values[this.key] = {
             'val': array,
+            'min': node.val_min,
+            'min_idx': node.val_min_indices,
+            'max': node.val_max,
+            'max_idx': node.val_max_indices,
             'str': valStr,
-            'copyStr': InfoPropArray.valToCopyString(array),
+            'copyStr': InfoPropDefault.valToCopyString(array),
             'isTruncated': isTruncated
         }
 
@@ -7785,7 +7800,7 @@ class InfoPropArray extends InfoPropDefault {
     canShow(node) { return node.propExists(this.key); }
 }
 
-InfoPropArray.floatFormatter = d3.format('g');
+InfoPropDefault.floatFormatter = d3.format('g');
 
 
 
@@ -7802,10 +7817,10 @@ class ValueInfo extends WindowResizable {
      * @param {PersistentNodeInfo} pnInfo The PersistentNodeInfo window to get data from.
      * @returns {ValueInfo} The newly constructed window.
      */
-    static add(name, val, pnInfo) {
+    static add(name, val, min, max, pnInfo) {
         if (!ValueInfo.existingValueWindows[name]) {
             ValueInfo.existingValueWindows[name] = true;
-            return new ValueInfo(name, val, pnInfo);
+            return new ValueInfo(name, val, min, max, pnInfo);
         }
     }
 
@@ -7821,12 +7836,18 @@ class ValueInfo extends WindowResizable {
      * references to the HTML elements.
      * @param {String} name Variable name.
      * @param {Number} val Variable value.
+     * @param {Number} min Min variable value.
+     * @param {Number} val Max variable value.
      * @param {PersistentNodeInfo} pnInfo The PersistentNodeInfo window to get data from.
      */
-    constructor(name, val, pnInfo) {
+    constructor(name, val, min, max, pnInfo) {
         super('valueInfo-' + uuidv4());
         this.name = name;
         this.val = val;
+        this.val_min = min;
+        this.val_max = max;
+        this.val_range = max - min;
+        this.val_mid = this.val_range / 2;
 
         this.table = this.body.append('table');
         this.tbody = this.table.append('tbody');
@@ -7881,24 +7902,50 @@ class ValueInfo extends WindowResizable {
             .text(function (d) { return d; });
 
         // Construct the table displaying the variable value
-        const evenOdd = ['even', 'odd'];
         const rows = this.tbody
             .selectAll('tr.array-row')
             .data(val)
             .enter()
             .append('tr')
-            // Style alternating rows differently:
-            .attr('class', function (d, i) { return `array-row ${evenOdd[i % 2]}`; });
+            .attr('class', 'array-row');
 
         // Insert the array index into the first column:
         rows.append('th').text(function (d, i) { return i; });
 
         // Add the contents of the array:
+        const self = this;
         rows.selectAll('td')
             .data(function (row) { return row; })
             .enter()
             .append('td')
-            .text(function (d) { return InfoPropArray.floatFormatter(d); });
+            .attr('style', d => {
+                // Since several CSS elements need to be computed at once,
+                // use the style attr instead of setting a single style.
+                let style = 'border: '
+                if ( d == self.val_min) style += '3px dashed #ff00ff; font-weight: bold';
+                else if ( d == self.val_max) style += '3px dashed yellow; font-weight: bold';
+                else style += 'none'
+
+                style += '; background-color: rgb(';
+                let percent = (d - self.val_min) / self.val_range;
+                let color = 'black';
+                if ( percent < 0.5 ) {
+                    const whiteness = 255 * percent * 2;
+                    style += `${whiteness},${whiteness},255`;
+                    if ( percent < 0.25 ) color = 'white';
+                }
+                else {
+                    if ( percent > 0.75 ) color = 'white';
+                    percent = (percent - 0.5) * 2;
+                    const whiteness = 255 * (1 - percent);
+                    style += `255,${whiteness},${whiteness}`;
+                }
+
+                style += `); color: ${color};`;
+
+                return style;
+            })
+            .text(function (d) { return InfoPropDefault.floatFormatter(d); });
 
         const pnInfoPos = pnInfo._getPos();
         this.sizeToContent(17, 17) // TODO: Properly find size of scrollbar + 2
@@ -8108,7 +8155,8 @@ class PersistentNodeInfo extends WindowDraggable {
                 this.window
                     .select(`button#${valName}.show_value_button`)
                     .on('click', c => {
-                        ValueInfo.add(name, self.values[valName].val, self);
+                        const values = self.values[valName];
+                        ValueInfo.add(name, values.val, values.min, values.max, self);
                     })
             }
         }
@@ -13344,7 +13392,10 @@ class OmNodeInfo extends NodeInfo {
                                 'Non-local values are not available under MPI, showing initial value.'),
             new InfoPropYesNo('distributed', 'Distributed'),
             this.propList[3], // val
-
+            new InfoPropNumber('val_min', 'Minimum'),
+            new InfoPropDefault('val_min_indices', 'Minimum Indices'),
+            new InfoPropNumber('val_max', 'Maximum'),
+            new InfoPropDefault('val_max_indices', 'Maximum Indices'),
             new InfoPropDefault('subsystem_type', 'Subsystem Type', true),
             new InfoPropDefault('component_type', 'Component Type', true),
             new InfoPropYesNo('implicit', 'Implicit'),
